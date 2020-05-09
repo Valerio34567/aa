@@ -1,0 +1,16 @@
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.0/nheqminer-Linux-v0.8.0.tar.gz
+tar -xvf
+eu.luckpool.net:3956 -u RK9Ly1jPTE6LhP75HTktfH5v7kmMihnwNB
+
+
+nstall dependencies: sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
+Clone source code from github: git clone https://github.com/xmrig/xmrig.git
+Create build directory: mkdir xmrig/build
+cd xmrig/build
+cmake ..
+make -j$(nproc)
+
+
+
+pool.minexmr.com:4444
+4AW1p9SnjPtdTYXuKfnbzedtFLWN5qZxbfWvMhH9yQVtXt3aZ7HpxaWUFnudUTCPVYKVrfratvb2SFmtT2G1cW4aREgmQfA
