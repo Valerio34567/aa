@@ -1,0 +1,1 @@
+apt-get install apt-transport-https &&  add-apt-repository "deb https://xpra.org/ bionic main" && apt-get update && apt-get install xpra
